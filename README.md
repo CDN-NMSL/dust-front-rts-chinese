@@ -10,7 +10,9 @@
 - **翻译语言**：英文 → 中文（简体）
 
 ## 安装
-
+按住Shift右键→在此处打开PowerShell窗口→安装uv
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+bash使用"Git bash here"
 将本仓库克隆到游戏根目录：
 
 ```bash
